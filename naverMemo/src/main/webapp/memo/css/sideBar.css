@@ -1,8 +1,8 @@
-button{
-    font-family: 'µ¸¿ò';
+.aside button{
+    font-family: 'ï¿½ï¿½ï¿½ï¿½';
     font-size: 12pt;
 }
-div{
+div.aside{
     border-bottom: 1px solid rgba(128, 128, 128, 0.178);
 }
 .aside{
