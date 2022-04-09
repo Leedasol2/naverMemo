@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="../css/araCss.css">
 <link rel="stylesheet" href="../css/header.css">
 <link rel="stylesheet" href="../css/sideBar.css">
+<link rel="stylesheet" href="../css/topBar.css">
 <!-- script 링크들 -->
 <script>
 
@@ -96,6 +97,7 @@
 		    
 		<!-- 본문 -->
 		<div id="container">
+		
 			<!-- 사이드바 -->
 			<div id="lside" class="aside">
         <!-- 새 메모 쓰기 버튼 -->
@@ -148,9 +150,46 @@
 			
 				<!--  -->
 				<div id="wrap_content">
-					<div id="content"></div>					
+					<div id="content">
+					
+					
+					<!-- topBar -->
+					<div class="nmemohead">
+					  <a class="btn_fold"></a>
+					  <div id="search">
+					    <input type="text" id=searchText title="검색어 입력" class="search_input_text">
+					    <button title="검색" type="button" class="btn_search"></button>&nbsp;&nbsp;
+					    <span class="filter_info">
+					      <strong class="_name">전체 메모</strong>&nbsp;
+					      <span class="bar">|</span>&nbsp;
+					      <em class="_count">1</em>&nbsp;&nbsp;
+					    </span>
+					    <a href="#" title="새로고침" class="btn_refresh"></a>
+					  </div>
+					</div>
+					
+					<div class="function_nmemohead2">
+					  <div id="search">
+					    <input type="checkbox">
+					    <button title="삭제" type="button" class="btn_delete">삭제</button>&nbsp;&nbsp;
+					    <button title="폴더이동" type="button" class="btn_move">폴더이동</button>&nbsp;&nbsp;
+					    <span class="sort_order" style="float: right;">생성일(최신순)</span>       
+					  </div>
+					  <!-- <span class="set_common"></span> -->
+					  <button class="set_common" type="button"></button>
+					  <button class="set_pinview" type="button"></button>
+					  <button class="set_allview" type="button"></button>
+					</div>
+					
+					
+					
+					
+					
+					
+					</div>					
 				</div>
 		</div>
+		
 		
 		<div id="promotionLayer" style="display: none; width:100%; height:100%"></div>
 		
