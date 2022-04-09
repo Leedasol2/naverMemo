@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* nmemohead */
+.nmemohead{
+  position: relative;
+  z-index: 20;
+  vertical-align: middle;
+  background-color: #fff;
+  line-height: 30px;
+  height: 50px;
+  padding: 10px 0 0 14px;
+}
+
+.btn_fold{
+  background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+  background-size: 450px 282px;
+  background-position: -231px -66px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cbcbcb;
+  float: left;
+  margin-right: 10px
+}
+
+#search {
+    float: left;
+    position: relative;
+    height: 30px;
+}
+
+.search_input_text{
+    border-color: #cbcbcb;
+    color: #969696;
+    padding: 0px 30px 0px 10px;
+    height: 30px;
+}
+
+.btn_search{
+  background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+  background-size: 450px 282px;
+  background-position: -265px -66px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  top: 1px;
+  left: 180px;
+}
+
+.filter_info{
+  padding: 0 0 0 0;
+  height: 10px;
+  border: 0;
+}
+
+.btn_refresh {
+    background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+    background-size: 450px 282px;
+    background-position: -215px -231px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    position: relative;
+    top: 7px;
+    vertical-align: top
+}
+
+
+/* function_memohead */
+.function_nmemohead{
+    height: 50px;
+    position: relative;
+    border-bottom: solid 1px #dadada;
+    background-color: #fff;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  border: initial;
+  position: relative;
+  height: 20px;
+  appearance: auto;
+  left: 20px;
+  top: 10px;
+}
+
+.btn_delete{
+  height: 30px;
+  border: 1px solid #cbcbcb;
+  background-color: #f8f8f8;
+  color: #333;
+  position: relative;
+  left: 30px; top: 5px;
+}
+
+.btn_move{
+  height: 30px;
+  border: 1px solid #cbcbcb;
+  background-color: #f8f8f8;
+  color: #333;
+  position: relative;
+  left: 30px; top: 5px;
+}
+
+.sort_order {
+  position: relative;
+  top: 8px; left: 200px;
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+  color: #666;
+}
+
+.set_common {
+    background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+    background-size: 450px 282px;
+    background-position: -111px -107px;
+    width: 29px;
+    height: 28px; 
+    float: left;
+    position: relative;
+    top: 10px; left: 210px;
+    border: 1px solid white;
+}
+
+.set_pinview {
+    background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+    background-size: 450px 282px;
+    background-position: -299px -66px;
+    width: 29px;
+    height: 28px;
+    float: left;
+    position: relative;
+    top: 10px; left: 210px;
+    border: 1px solid white;
+}
+
+.set_allview {
+    background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+    background-size: 450px 282px;
+    background-position: -144px -107px;
+    width: 29px;
+    height: 28px;
+    float: left;
+    position: relative;
+    top: 10px; left: 210px;
+    border: 1px solid white;
+}
