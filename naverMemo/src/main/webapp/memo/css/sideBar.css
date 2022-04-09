@@ -1,9 +1,6 @@
-button{
+.aside button{
     font-family: 'µ¸¿ò';
     font-size: 12pt;
-}
-div{
-    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
 }
 .aside{
     width: 249px;
@@ -28,14 +25,14 @@ div{
     cursor: pointer;
 }
 
-ul li{
+aside ul li{
     list-style: none;
     width: 100%;
     cursor: pointer;
     
     margin-bottom: 5px;
 }
-ul{
+aside ul{
     padding-left: 7px;
 }
 .star{
