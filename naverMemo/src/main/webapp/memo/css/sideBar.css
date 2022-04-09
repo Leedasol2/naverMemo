@@ -1,0 +1,123 @@
+button{
+    font-family: '돋움';
+    font-size: 12pt;
+}
+div{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+.aside{
+    width: 249px;
+    border-right: 1px solid rgba(128, 128, 128, 0.521);
+    height: 900px;
+    position: absolute;
+    left: 0;
+}
+
+#newMemo{
+    background-color: #00c73c;
+    color: white;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    width: 213px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+    
+    margin-bottom: 5px;
+}
+ul{
+    padding-left: 7px;
+}
+.star{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -168px -152px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.link{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -96px -152px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.img_plus{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -48px -207px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.todo{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -240px -183px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.diary{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -120px -207px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.zoom{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -144px -183px;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.plus{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -216px -183px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.large_trash{
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -144px -207px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px
+}
+.small_trash{
+
+    background-image: url("memo_bg.png");
+    background-size: 450px 282px;
+    background-position: -432px -152px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.cursor{
+    cursor: pointer;
+}
+ul#mem>li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
