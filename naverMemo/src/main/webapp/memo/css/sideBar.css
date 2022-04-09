@@ -1,5 +1,5 @@
 button{
-    font-family: 'ÎèãÏõÄ';
+    font-family: 'µ∏øÚ';
     font-size: 12pt;
 }
 div{
@@ -11,6 +11,7 @@ div{
     height: 900px;
     position: absolute;
     left: 0;
+    top: 200px;
 }
 
 #newMemo{
@@ -47,7 +48,7 @@ ul{
     
 }
 .link{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -96px -152px;
     width: 20px;
@@ -55,7 +56,7 @@ ul{
     margin-right: 10px;
 }
 .img_plus{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -48px -207px;
     width: 20px;
@@ -63,7 +64,7 @@ ul{
     margin-right: 10px;
 }
 .todo{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -240px -183px;
     width: 20px;
@@ -71,7 +72,7 @@ ul{
     margin-right: 10px;
 }
 .diary{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -120px -207px;
     width: 20px;
@@ -79,7 +80,7 @@ ul{
     margin-right: 10px;
 }
 .zoom{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -144px -183px;
     width: 20px;
@@ -89,7 +90,7 @@ ul{
     margin-left: 5px;
 }
 .plus{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -216px -183px;
     width: 20px;
@@ -97,7 +98,7 @@ ul{
     margin-right: 5px;
 }
 .large_trash{
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -144px -207px;
     width: 20px;
@@ -106,7 +107,7 @@ ul{
 }
 .small_trash{
 
-    background-image: url("memo_bg.png");
+    background-image: url("../image/memo_bg.png");
     background-size: 450px 282px;
     background-position: -432px -152px;
     width: 18px;
