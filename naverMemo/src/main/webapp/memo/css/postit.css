@@ -1,0 +1,215 @@
+@charset "UTF-8";
+body, button, input, select, table, textarea {
+	font-family: '돋움',Dotum,Helvetica,Sans-serif,'Apple SD Gothic Neo';
+	font-size: 12px;
+}
+.group_paper {
+	position: relative;
+	margin-left: -1px;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+.group_paper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.group_paper .wrap_paper {
+	float: left;
+	width: 258px;
+}
+.group_paer .wrap_paper .memo_area {
+	height: 263px;
+}
+.wrap_paper {
+	margin: 14px 14px 0 0;
+	box-shadow: 0 1px 3px #b6b6b6;
+	position: relative;
+}
+.wrap_paper.color1:after {
+	background-color: #fffef2;
+}
+.wrap_paper:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.wrap_paper .paper_area {
+	position: relative;
+	z-index: 5;
+}
+.wrap_paper .memo_head {
+	position: relative;
+	height: 34px;
+	padding: 3px 14px 0;
+	line-height: 34px;
+}
+.wrap_paper .color1 .memo_head:after {
+	border-color: #e5e4d9;
+}
+.wrap_paper .memo_head:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom: 1px solid #e5e4d9;
+}
+.wrap_paper .memo_head .edit_area {
+	position: absolute;
+	top: 0;
+	right: 11px;
+	font-size: 0;
+	line-height: 1.5;
+}
+.wrap_paper .memo_head .edit_area:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.wrap_paper.first .edit_area .fullview {
+	display: inline-block;
+}
+.wrap_paper .memo_head .edit_area a {
+	display: inline-block;
+	height: 15px;
+	padding: 11px 3px 10px;
+}
+a {
+	text-decoration: none;
+}
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+}
+.wrap_paper .memo_head .edit_area .fullview .ico {
+	background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+	background-size: 450px 282px;
+	background-position: -412px -207px;
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+}
+.blind, hr, legend {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0!important;
+	height: 0!important;
+	font-size: 0!important;
+	line-height: 0;
+}
+.wrap_paper.first .edit_area a {
+	display: none;
+}
+.wrap_paper .memo_head .edit_area .important .ico {
+	background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+	background-size: 450px 282px;
+	background-position: -100px -231px;
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+}
+.wrap_paper .memo_area {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding: 14px 20px 0 14px;
+}
+.wrap_paper .memo_area:after {
+	content: '';
+	display: block;
+	height: 16px;
+}
+.group_paper .wrap_paper .memo_inner {
+	min-height: 233px;
+}
+.wrap_paper .memo_area .memo_inner {
+	line-height: 1.5;
+	color: #434343;
+	font-size: 13px;
+	word-wrap: break-word;
+	outline: 0;
+}
+.wrap_paper .memo_area .memo_inner:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6,
+input, legend, li, menu, ol, p, select, table, td, textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+.wrap_paper .memo_head .update_time {
+	display: inline-block;
+	color: #999;
+	font-size: 11px;
+}
+.wrap_paper .memo_head .edit_area .fullview {
+	display: none;
+}
+.wrap_paper .memo_head .edit_area .modify .ico {
+	background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+	backround-size: 450px 282px;
+	background-position: -40px -231px;
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+}
+.wrap_paper .memo_head .edit_area .important .ico {
+	background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+	background-size: 450px 282px;
+	background-position: -100px -231px;
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+}
+.clr {
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+.group_paper .more_memo {
+	clear: both;
+	height: 35px;
+	border: 1px solid #e6e6e6;
+	background-color: #f5f5f5;
+	line-height: 35px;
+	text-align: center;
+	margin: 20px 14px 0 0;
+}
+.group_paper .more_memo a {
+	color: #555;
+	font-size: 12px;
+	text-decoration: none;
+}
+.group_paper .more_memo .arrow_ly2 {
+	background-image: url(https://ssl.pstatic.net/static/pwe/memo/sp/sp_memo_b9775359.png);
+	background-size: 450px 282px;
+	background-position: -152px -139px;
+	width: 7px;
+	height: 7px;
+	vertical-align: middle;
+}
+.arrow_ly2 {
+	margin-left: 4px;
+}
+.spr_mm {
+	display: inline-block;
+	background-repeat: no-repeat;
+}
