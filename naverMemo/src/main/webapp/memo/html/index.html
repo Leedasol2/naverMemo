@@ -3,89 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!--제이쿼리 링크-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><!--부트스트랩 링크-->
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&family=Single+Day&family=Song+Myung&family=Stylish&display=swap" rel="stylesheet"> <!--구글폰트 링크-->
-<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/navermemoCss.css">
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Gamja+Flower&family=Hi+Melody&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<script>
-
-    $(function () {
-       
-        $("a").click(function (e) {
-            //a태그 원래기능(페이지이동) 삭제
-            e.preventDefault();
-            
-            //다른 a태그에 있는 active클래스는 삭제
-            $("a").removeClass("active");
-
-            //클릭한 a태그에 active 클래스 추가
-            $(this).addClass("active");
-        });
-	});
-</script>
 </head>
-<body>
+<body style="overflow-y:hidden">
+<div id="wrap" class="skin_white">
 
-    
-        <div class="memo_header"> <!--memo_header 시작-->
+<!-- header -->
+<link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/pwe/css/deskhome_header_https_20201110.css">
+<script type="text/javascript" charset="UTF-8" src="https://ssl.pstatic.net/pwe/js/release/deskhome_menu_202011.js"></script>
+<div id="header" class="{=OPTION_CLASS}"></div>
+<!-- 본문 -->
+<div id="container">
+	<!-- 사이드바 -->
+	<div id="lside">
+	
+	<div id="snb" class="nav_mm">
+		<div class="writenote"></div>
+		<div id="leftScrollArea" class="scroll_zoom"></div>
+	</div>
+	</div>
+	
+		<!--  -->
+		<div id="wrap_content">
+			<div id="content"></div>
+			::after
+		</div>
+</div>
 
-            <div class="logo">
-                <a href="" class="naver"></a>
-                <a href="" class="memo"></a>
-            </div>
+<div id="promotionLayer" style="display: none; width:100%; height:100%"></div>
 
-    
-                <div class="memo_nav">
-                    <ul>
-                        <li>
-                            <a href="#" class="mail"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="calendar"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="memo"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="contact"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="ndrive"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="office"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="monetbook"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="menu_more"></a>
-                        </li>
-                    </ul>
-                </div>
-    
-
-            <div class="gnb_right">
-                <ul>
-                    <li>
-                        <a href="" class="gnb_my">
-                          <img src="https://ssl.pstatic.net/static/common/myarea/myInfo.gif" alt="" class="myinfo">
-                          <span class="gnb_name">홍길동</span>             
-                        </a>          
-                    </li>
-                    <li>
-                        <a href="" class="gnb_notice"></a>
-                    </li>
-                    <li>
-                        <a href="" class="gnb_icon"></a>
-                    </li>
-                </ul>
-            </div>
-
-            
-        </div> <!--memo_header 끝-->
-    
-
+<hr>
+<!-- footer -->
+<div id="footer" style="z-index:10">
+	<div class="quick_tool">
+		<a href="#" onclick="clickcr(this,'lfm.skin','','',event);" class="_skin_btn">스킨설정</a>
+	</div>
+	<address>Copyright &copy; <a href="https://www.navercorp.com" target="_blank" class="_company"><strong>NAVER
+			Corp.</strong></a> All Rights Reserved.
+		</address>
+		<ul class="quick">
+			<li><a class="_nBoardUrl" href="javascript:memo.utils.openNboardWindow();"
+				   onclick="clickcr(this,'fot.notice','','',event);">공지사항</a>
+			</li>
+			<li><a href="https://help.naver.com/support/service/main.help?serviceNo=639" target="_blank"
+				   class="_inquire" onclick="clickcr(this,'fot.customer','','',event);">메모 고객센터</a></li>
+		</ul>
+	</div>
+</div>
 </body>
 </html>
