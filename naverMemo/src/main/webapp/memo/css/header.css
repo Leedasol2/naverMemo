@@ -72,7 +72,7 @@ table {
 }
 
 .memo_header > .logo a.naver{
-    background: url(../img/navermemoheader.png) no-repeat 0 48%;
+    background: url(../image/navermemoheader.png) no-repeat 0 48%;
     width: 58px;
     height: 24px;    
     display: inline-block;
@@ -80,7 +80,7 @@ table {
 
 
 .memo_header > .logo a.memo{
-    background: url(../img/navermemoheader.png) no-repeat 60% 48%; 
+    background: url(../image/navermemoheader.png) no-repeat 60% 48%; 
     width: 42px;
     height: 24px;    
     display: inline-block;
@@ -116,63 +116,63 @@ table {
     height: 30px;}
 
 .memo_header > .memo_nav ul li a.mail{
-    background: url(../img/navermemoheader.png) no-repeat 22% 62%;
+    background: url(../image/navermemoheader.png) no-repeat 22% 62%;
  }
 
 .memo_header > .memo_nav ul li a.calendar{
-    background: url(../img/navermemoheader.png) no-repeat 11% 91%;       
+    background: url(../image/navermemoheader.png) no-repeat 11% 91%;       
 }
 
 .memo_header > .memo_nav ul li a.memo{
-    background:url(../img/navermemoheader.png) no-repeat 0% 76%;   
+    background:url(../image/navermemoheader.png) no-repeat 0% 76%;   
 }
 
 .memo_header > .memo_nav ul li a.contact{
-    background: url(../img/navermemoheader.png) no-repeat 12% 61%;    
+    background: url(../image/navermemoheader.png) no-repeat 12% 61%;    
 }
 .memo_header > .memo_nav ul li a.ndrive{
-    background: url(../img/navermemoheader.png) no-repeat 23% 91%;    
+    background: url(../image/navermemoheader.png) no-repeat 23% 91%;    
 }
 .memo_header > .memo_nav ul li a.office{
-    background: url(../img/navermemoheader.png) no-repeat 71% 76%;    
+    background: url(../image/navermemoheader.png) no-repeat 71% 76%;    
 }
 .memo_header > .memo_nav ul li a.monetbook{
-    background:url(../img/navermemoheader.png) no-repeat 23% 76%;    
+    background:url(../image/navermemoheader.png) no-repeat 23% 76%;    
 }
 .memo_header > .memo_nav ul li a.menu_more{
     width: 20px; height: 20px;
-    background: url(../img/navermemoheader.png) no-repeat 0% 100%;
+    background: url(../image/navermemoheader.png) no-repeat 0% 100%;
 }
 
 /* 아이콘 클릭시 color 변경 .active 클래스 추가 */
 .memo_header > .memo_nav ul li a.mail.active{
-    background: url(../img/navermemoheader.png) no-repeat 69% 62%;
+    background: url(../image/navermemoheader.png) no-repeat 69% 62%;
  }
 .memo_header > .memo_nav ul li a.calendar.active{
-    background: url(../img/navermemoheader.png) no-repeat -1% 91%;      
+    background: url(../image/navermemoheader.png) no-repeat -1% 91%;      
 }
 .memo_header > .memo_nav ul li a.memo.active{
-    background: url(../img/navermemoheader.png) no-repeat 93% 62%;
+    background: url(../image/navermemoheader.png) no-repeat 93% 62%;
 }
 .memo_header > .memo_nav ul li a.contact.active{
-    background: url(../img/navermemoheader.png) no-repeat 0% 61%; 
+    background: url(../image/navermemoheader.png) no-repeat 0% 61%; 
 }
 .memo_header > .memo_nav ul li a.ndrive.active{
-    background: url(../img/navermemoheader.png) no-repeat 33% 91%;    
+    background: url(../image/navermemoheader.png) no-repeat 33% 91%;    
 }
 .memo_header > .memo_nav ul li a.office.active{
-    background: url(../img/navermemoheader.png) no-repeat 59% 76%;
+    background: url(../image/navermemoheader.png) no-repeat 59% 76%;
 }
 .memo_header > .memo_nav ul li a.monetbook.active{
-    background:url(../img/navermemoheader.png) no-repeat 11% 76%;   
+    background:url(../image/navermemoheader.png) no-repeat 11% 76%;   
 }
 .memo_header > .memo_nav ul li a.menu_more.active{
-     background: url(../img/navermemoheader.png) no-repeat 7% 100%;
+     background: url(../image/navermemoheader.png) no-repeat 7% 100%;
 }
 /* 아이콘 클릭시 color 변경 .active 클래스 추가  끝 */
 
 /* nav css 끝*/
-
+/* nav css 끝*/
 
 
 
@@ -226,12 +226,12 @@ table {
 }
 
 .memo_header > .gnb_right ul li a.gnb_notice{
-    background: url(../img/sp_gnb_v14.png) no-repeat 0 0;
+    background: url(../image/sp_gnb_v14.png) no-repeat 0 0;
     background-position: -282px -119px;
 }
 
 .memo_header > .gnb_right ul li a.gnb_icon{
-    background: url(../img/sp_gnb_v14.png) no-repeat 0 0;
+    background: url(../image/sp_gnb_v14.png) no-repeat 0 0;
     background-position: -323px -120px;
     width: 17px;
 }   
