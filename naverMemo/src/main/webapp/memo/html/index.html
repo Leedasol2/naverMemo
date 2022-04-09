@@ -37,120 +37,162 @@
 <div id="wrap" class="skin_white">
 
 
-<!-- header -->
+<!-- [임현정] memo_header 시작-->   
+<div class="memo_header"> 
+
+       <div class="logo">
+           <a href="" class="naver"></a>
+           <a href="" class="memo"></a>
+      </div>
    
-        <div class="memo_header"> <!--memo_header 시작-->
-
-            <div class="logo">
-                <a href="" class="naver"></a>
-                <a href="" class="memo"></a>
-            </div>
-
+      <div class="memo_nav">
+          <ul>
+             <li>
+                <a href="#" class="mail"></a>
+             </li>
+             <li>
+	            <a href="#" class="calendar"></a>
+             </li>
+             <li>
+    	        <a href="#" class="memo"></a>
+        	 </li>
+             <li>
+                <a href="#" class="contact"></a>
+            </li>
+            <li>
+                <a href="#" class="ndrive"></a>
+            </li>
+            <li>
+                <a href="#" class="office"></a>
+            </li>
+            <li>
+                <a href="#" class="monetbook"></a>
+            </li>
+            <li>
+                <a href="#" class="menu_more"></a>
+            </li>
+         </ul>
+     </div>
     
-                <div class="memo_nav">
-                    <ul>
-                        <li>
-                            <a href="#" class="mail"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="calendar"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="memo"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="contact"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="ndrive"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="office"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="monetbook"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="menu_more"></a>
-                        </li>
-                    </ul>
-                </div>
-    
-
-            <div class="gnb_right">
-                <ul>
-                    <li>
-                        <a href="" class="gnb_my">
-                          <img src="https://ssl.pstatic.net/static/common/myarea/myInfo.gif" alt="" class="myinfo">
-                          <span class="gnb_name">홍길동</span>             
-                        </a>          
-                    </li>
-                    <li>
-                        <a href="" class="gnb_notice"></a>
-                    </li>
-                    <li>
-                        <a href="" class="gnb_icon"></a>
-                    </li>
-                </ul>
-            </div>
-
-            
-        </div> <!--memo_header 끝-->
+	 <div class="gnb_right">
+           <ul>
+               <li>
+                 <a href="" class="gnb_my">
+	                 <img src="https://ssl.pstatic.net/static/common/myarea/myInfo.gif" alt="" class="myinfo">
+	                 <span class="gnb_name">홍길동</span>             
+	             </a>          
+               </li>
+               <li>
+               	 <a href="" class="gnb_notice"></a>
+               </li>
+               <li>
+              	   <a href="" class="gnb_icon"></a>
+               </li>
+         </ul>
+     </div>
+</div> 
+<!-- [임현정] memo_header 끝-->
 		    
-		<!-- 본문 -->
-		<div id="container">
+
+<!-- 본문 시작 -->
+<div id="container">
 		
-			<!-- 사이드바 -->
-			<div id="lside" class="aside">
+		<!-- 사이드바 -->
+		<div id="lside" class="aside">
+		
         <!-- 새 메모 쓰기 버튼 -->
-        <div align="center" style="padding: 16px 18px; margin-top: 50px;">
+        <div align="center" style="padding: 16px 18px; margin-top: 50px;border-bottom: 1px solid #ccc;">
             <button id="newMemo">새 메모 쓰기</button>
         </div>
 
         <!-- 중요메모, 담은링크, 사진 첨부 메모, 할 일, 다이어리 -->
-        <div>
-            <ul>
-                <li><img class="star cursor">중요 메모</li>
-                <!-- <li><span class="star cursor"></span>중요 메모</li> -->
-                <li><img class="link cursor">담은 링크</li>
-                <li><img class="img_plus cursor">사진 첨부 메모</li>
-                <li><img class="todo cursor">할 일</li>
-                <li><img class="diary cursor">다이어리</li>
+	    <!--   <div>
+	            <ul>
+	                <li>
+	                	 <a href="#" class="office"></a>
+	                	<img class="star cursor">중요 메모
+	                </li>
+	                <!-- <li><span class="star cursor"></span>중요 메모</li> 
+	                <li><img class="link cursor">담은 링크</li>
+	                <li><img class="img_plus cursor">사진 첨부 메모</li>
+	                <li><img class="todo cursor">할 일</li>
+	                <li><img class="diary cursor">다이어리</li>
+	
+	            </ul>
+	        
+	        </div>  --> 
 
-            </ul>
-        
-        </div>
-
+<!-- [이다솔] 사이드 메뉴바 시작 -->
+		<ul class="menu">			
+			<li>
+				<span class="ml_t">
+					<span class="ico_mm core"></span>
+					<a href="#" class="ma">중요 메모</a>&nbsp;
+					<span class="_count"></span>
+				</span>
+			</li>
+			
+			<li>
+				<span class="ml_t">
+					<span class="ico_mm linkicon"></span>
+					<a href="#" class="ma">담은 링크</a>&nbsp;
+					<span class="_count"></span>
+				</span>
+			</li>
+			
+			<li>
+				<span class="ml_t">
+					<span class="ico_mm attach_pht"></span>
+					<a href="#" class="ma _filter_pic">사진 첨부 메모</a>&nbsp;
+					<span class="_count"></span>
+				</span>
+			</li>
+			
+			<li>
+				<span class="ml_t">
+					<span class="ico_mm todoicon"></span>
+					<a href="#" class="ma _filter_todo">할 일</a>&nbsp;
+					<span class="_count"></span>
+				</span>
+			</li>
+			
+			<li>
+				<span class="ml_t">
+					<span class="ico_mm diaryicon"></span>
+					<a href="#" class="ma _filter_diary">다이어리</a>&nbsp;
+					<span class="_count"></span>
+				</span>
+			</li>
+		</ul>
+		
+		
         <!-- 메모 -->
         <div style="margin-top: 10px;"> 
-            <span class="cursor"><img class="zoom cursor"><span>전체 메모</span><span style="float: right;"><img class="plus" ></span>
-                <ul id="mem">
-                    <li><span style="background-color: antiquewhite; padding-left: 20px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>내 메모 (기본)</li>
-                    <li><span style="background-color: rgb(215, 248, 250); padding-left: 20px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>스크랩</li>
-                    <li><span style="background-color: rgb(215, 250, 238); padding-left: 20px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>아이디어</li>
-                    <li><span style="background-color: rgb(231, 215, 250); padding-left: 20px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>쇼핑</li>
-                </ul>
-
-            </span>
-
-        </div>
-
-        <!-- 휴지통 -->
-        <div style="border-bottom: none;">
-            <ul>
-                
-                <li><img class="large_trash cursor">휴지통<span style="float: right;"><img class="small_trash cursor"></span></li>
-                
-            </ul>
-        </div>
-    
+	            <span class="cursor"><img class="zoom cursor"><span>전체 메모</span><span style="float: right;"><img class="plus" ></span>
+	                <ul id="mem">
+	                    <li><span style="background-color: antiquewhite; padding-left: 12px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>내 메모 (기본)</li>
+	                    <li><span style="background-color: rgb(215, 248, 250); padding-left: 12px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>스크랩</li>
+	                    <li><span style="background-color: rgb(215, 250, 238); padding-left: 12px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>아이디어</li>
+	                    <li><span style="background-color: rgb(231, 215, 250); padding-left: 12px; border: 1px solid rgba(128, 128, 128, 0.068); margin-right: 10px;" class="cursor"></span>쇼핑</li>
+	                </ul>
+			 </span>
+			</div>
+	
+	        <!-- 휴지통 -->
+	        <div style="border-bottom: none;">
+	            <ul>
+	                <li><img class="large_trash cursor">휴지통<span style="float: right;"><img class="small_trash cursor"></span></li>
+	            </ul>
+	        </div>
+	    
 			<div id="snb" class="nav_mm">
-				<div class="writenote"></div>
-				<div id="leftScrollArea" class="scroll_zoom"></div>
+					<div class="writenote"></div>
+					<div id="leftScrollArea" class="scroll_zoom"></div>
 			</div>
-			</div>
-			
-				<!--  -->
+		</div>
+<!-- [이다솔] 사이드 메뉴바 끝 -->		
+
+<!-- [강나리] 검색창 시작 -->
 				<div id="wrap_content">
 					<div id="content">
 					
@@ -183,9 +225,10 @@
 					  <button class="set_allview" type="button"></button>
 					  
 					</div>
+<!-- [강나리] 검색창 끝 -->
 
 
-					<!-- 메모지 올릴 본문 -->
+<!-- [신지환] 메모지 올릴 본문 -->
 					<div class="memo">
 						<div class="group_paper _ct_list_area" style="display: block">
 							<!-- 새 메모 -->
@@ -272,6 +315,7 @@
 									<!-- ::after -->
 								</div>
 							</div>
+					<!-- [차동현] 상단,하단 이동 버튼 시작 -->
 							<div class="btn-move">
 								<!-- 최상단 이동 버튼 -->
 								<a href="#" class="move-top"></a>
@@ -280,19 +324,20 @@
 								<a href="#scrollbottom" class="move-bottom"></a>
 								<div id="scrollbottom"></div>
 							</div>
+					<!-- [차동현] 상단,하단 이동 버튼 끝 -->							
 					</div>
-
 				</div>	
-								
-				</div>
-				
 		</div>
-		
+<!-- [신지환] 메모지 올릴 본문 끝-->
+				
+</div>
+<!-- 본문 끝 -->		
 		
 		<div id="promotionLayer" style="display: none; width:100%; height:100%"></div>
 		
 		<hr>
-		<!-- footer -->
+
+<!-- [조아라] footer 시작 -->
 		<div id="footer" style="z-index:10">
 		
 			<div class="quick_tool">
@@ -311,5 +356,6 @@
 				</ul>
 			</div>
 		</div>
+<!-- [조아라] footer 끝 -->
 </body>
 </html>

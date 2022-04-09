@@ -1,6 +1,69 @@
+
+
+.menu ul{}
+.menu ul li{}
+
+.menu ul li span{}
+
+.menu ul li{}
+
+.asude span.ico_mm core{
+	 width: 30px; height: 30px;
+	  background: url(../image/memo_bg.png) no-repeat 22% 62%;
+}
+
+.asude .menu ul li a{
+	display: inline-block;   width: 30px;
+    height: 30px;
+}
+
+.menu ul li a.ma{
+	 
+}
+.aside a.ma{
+	padding-left:24px;	
+	color:#000;
+	line-height: 20px;
+}
+
+.aside span.ico_mm.core{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../image/memo_bg.png) no-repeat 100% 79%;
+}
+
+.aside span.ico_mm.linkicon{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../image/memo_bg.png) no-repeat 23% 58%;
+}
+
+.aside span.ico_mm.attach_pht{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../image/memo_bg.png) no-repeat 11% 79%;
+}
+
+.aside span.ico_mm.todoicon{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../image/memo_bg.png) no-repeat 56% 70%;
+}
+
+.aside span.ico_mm.diaryicon{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../image/memo_bg.png) no-repeat 28% 79%;
+}
+
+
 .aside button{
-    font-family: '����';
-    font-size: 12pt;
+  font-size: 12pt;
 }
 div.aside{
     border-bottom: 1px solid rgba(128, 128, 128, 0.178);
@@ -27,17 +90,19 @@ div.aside{
     border: 1px solid rgba(0,0,0,.15);
     cursor: pointer;
 }
+.aside ul{
+	border-bottom: 1px solid #ccc;
+ 	padding-left: 18px;
+    margin: 26px 0;
+}
 
 .aside ul li{
     list-style: none;
     width: 100%;
     cursor: pointer;
-    
     margin-bottom: 5px;
 }
-.aside ul{
-    padding-left: 7px;
-}
+
 .star{
     background-image:url("../image/memo_bg.png");
     background-size: 450px 282px;
@@ -119,6 +184,6 @@ div.aside{
 }
 .aside ul#mem>li{
     margin-bottom: 10px;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 

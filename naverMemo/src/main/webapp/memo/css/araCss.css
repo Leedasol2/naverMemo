@@ -123,17 +123,13 @@ address, em {
     border-left: solid 1px #c1c1c1;
     line-height: 11px;
     font-size: 11px;
-    color: #666;
-    letter-spacing: -1px;
+   letter-spacing: -1px;
     vertical-align: top;
 }
-li, menu, ol, ul {
-    list-style: none;
+#footer .quick li a{
+	 color: #666;
 }
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
+
 .blind, hr, legend {
     overflow-x: hidden;
     overflow-y: hidden;
